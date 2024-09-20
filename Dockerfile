@@ -1,7 +1,7 @@
-From python:3.11-slim
+FROM python:3.11-slim
 
 WORKDIR /app
-COPY ...
+COPY . .
 
 RUN pip install gunicorn
 RUN pip install -r requirements.txt
